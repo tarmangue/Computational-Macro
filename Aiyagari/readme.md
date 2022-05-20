@@ -2,13 +2,13 @@
 
 Consider a model with a continuum of infinitely lived, ex-ante identical agents that are subject to idiosyncratic income shocks that follow a Markov process. The problem of one of those agents is therefore:
 
-$$\max_{\{c_t,a_{t+1}\}_{t=0}^{\infty}}\ \mathbb{E} \sum_{t=0}^{\infty} \beta^t u(c_t)$$
+$$\max_{\{c_t,a_{t+1}\}_{t=0}^{\infty}}\ E \sum_{t=0}^{\infty} \beta^t u(c_t)$$
 
 subject to:
 $$a_{t+1} + c_{t} = w z_{t} + (1+r)a_{t}$$
 The Bellman equation is then:
 
-$$V(a,z) = \max_{a'}\bigg\{ u[w z+(1+r)a-a'] + \beta \sum_{z'} \pi_{z'|z} V(a',z')\bigg\}$$
+$$V(a,z) = \max_{a'} \{ u[w z+(1+r)a-a'] + \beta \sum_{z'} \pi_{z'|z} V(a',z') \}$$
 
 We assume there is a large number of firms and that they are perfectly competitive. Firms hire labor and capital and employ a standard Cobb-Douglas production function. Then, firms solve the static problem:
 $$\max_{K_t,N_t} A K_{t}^{\alpha} - (r+\delta)K_t - w$$
