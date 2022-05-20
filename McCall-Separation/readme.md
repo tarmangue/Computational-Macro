@@ -2,7 +2,7 @@
 
 Consider a model of unemployment search where:
 
-- An unemployed worker receives a job offer with a wage $w$ from a distribution with some density $f(w)$. Upon receiving the offer, the agent must decide between accepting and rejecting it. If the offer is accepted, the agent gets $w$ in the current period and enters the next period employed with wage $w$. If the offer is rejected, the agent collects $b$ (home production or unemployment benefits) and waits until next period, when another offer arrives.
+- An unemployed worker receives a job offer with a wage <img src="https://render.githubusercontent.com/render/math?math=w"> from a distribution with some density $f(w)$. Upon receiving the offer, the agent must decide between accepting and rejecting it. If the offer is accepted, the agent gets $w$ in the current period and enters the next period employed with wage $w$. If the offer is rejected, the agent collects $b$ (home production or unemployment benefits) and waits until next period, when another offer arrives.
 - An employed worker enters the period with wage $w$ and next period he retains the job with probability $(1-\lambda)$ and loses the job with probability $\lambda$.
 
 Importantly: an agent that becomes unemployed gets a new offer instantaneously. That is, an agent that becomes unemployed does not necessarily have to stay unemployed and derive $b$ for one period.
